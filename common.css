@@ -1,10 +1,5 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
 body {
-    font-family:sans-serif;
+    font-family: "Playwrite AU QLD", cursive;
     background: linear-gradient(135deg, thistle 0%, #e6d6f3 30%, lavender 60%, #f8f8ff 85%, white 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     height:100%;
+    max-width: 100%;
 }
 
 header {
@@ -20,7 +16,7 @@ header {
     align-items: center;
     font-size: 2vw;
     border-bottom: solid blue;
-    background-color:teal;
+    background: linear-gradient(135deg, rgb(6, 95, 185), rgb(111, 171, 223));
     position: fixed;
     width: 100%;
     height: 3rem;
@@ -42,9 +38,6 @@ h1 {
 main {
     padding-top: 3rem;
     padding-bottom: 2rem;
-    /* display: grid; 
-    grid-template-columns: 2fr 1fr;
-    -ms-grid-column-span: 100%; */
 }
 
 footer {
@@ -56,6 +49,6 @@ footer {
     height: 2rem;
     bottom: 0; 
     left: 0;
-    background-color: teal;
+    background: linear-gradient(135deg, rgb(6, 95, 185), rgb(111, 171, 223));
     border-top: solid blue;
 }
