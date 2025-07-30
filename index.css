@@ -1,12 +1,20 @@
 main {
-    display: grid; 
-    grid-template-columns: 2fr 1fr;
-    -ms-grid-column-span: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100vw;
+    height: 89vh;
 }
 
 .eye {
     max-width: 100%;
     height: auto;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
 }
 
 h2 {
