@@ -1,3 +1,16 @@
 main {
     color: darkblue;
 }
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 20rem;
+    margin: 0 auto;
+    gap: 0.20rem;
+}
+
+button { 
+    align-self: flex-end;
+    margin-top: 0.25rem;
+}
