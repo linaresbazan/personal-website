@@ -8,3 +8,11 @@ main {
     max-width: 100%;
     height: auto;
 }
+
+h2 {
+    color: darkblue;
+}
+
+h3 { 
+    color: darkblue;
+}

@@ -40,6 +40,7 @@ article {
     flex-flow: column wrap;
     align-items: center; 
     border-top: solid purple;
+    width: 100%;
 }
 
 h3 {

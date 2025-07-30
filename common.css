@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2vw;
+    font-size: 70%;
     border-bottom: solid blue;
     background: linear-gradient(135deg, rgb(6, 95, 185), rgb(111, 171, 223));
     position: fixed;
@@ -22,6 +22,7 @@ header {
     height: 3rem;
     left: 0;
     top: 0;
+    overflow-x: hidden;
 }
 
 a {

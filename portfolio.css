@@ -1,0 +1,44 @@
+h2 {
+    color: darkblue;
+}
+
+div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+    margin: 1rem; 
+    background-color: rgb(219, 190, 219);
+    border: solid purple;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; 
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 1rem;
+    color: darkblue;
+}
+
+p {
+    color: darkblue;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; 
+    border-top: solid purple;
+}
